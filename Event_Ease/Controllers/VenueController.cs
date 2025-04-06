@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 public class VenueController : Controller
 {
+    // Portions of the code in this file were written with the assistance of GitHub Copilot.
+    //My CRUD methods were written with the assistace of lecturer videos
     private readonly ApplicationDbContext _context;
 
     public VenueController(ApplicationDbContext context)
@@ -24,6 +26,7 @@ public class VenueController : Controller
         return View();
     }
 
+   
     [HttpPost]
     public async Task<IActionResult> Create(Venue venue)
     {

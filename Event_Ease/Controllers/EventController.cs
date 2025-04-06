@@ -7,6 +7,8 @@ namespace Event_Ease.Controllers
 {
     public class EventController : Controller
     {
+        // Portions of the code in this file were written with the assistance of GitHub Copilot.
+        //My CRUD methods were written with the assistace of lecturer videos
         private readonly ApplicationDbContext _context;
 
         public EventController(ApplicationDbContext context)
